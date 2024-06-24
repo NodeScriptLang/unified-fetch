@@ -1,7 +1,7 @@
 import { FetchFunction, FetchRequestSpec } from '../types/index.js';
 import { FetchError } from '../util/index.js';
 
-export const universalFetch: FetchFunction = async (req: FetchRequestSpec, body?: any) => {
+export const unifiedFetch: FetchFunction = async (req: FetchRequestSpec, body?: any) => {
     const fetchServiceUrl = req.connectOptions.fetchServiceUrl ?? 'https://fetch.nodescript.dev';
     const res = await fetch(fetchServiceUrl + '/request', {
         method: 'POST',

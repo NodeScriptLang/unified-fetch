@@ -3,7 +3,7 @@ import { Agent, Dispatcher, getGlobalDispatcher, ProxyAgent, request } from 'und
 import { FetchFunction, FetchRequestSpec } from '../types/index.js';
 import { FetchError } from '../util/index.js';
 
-export const universalFetch: FetchFunction = async (req: FetchRequestSpec, body?: any) => {
+export const unifiedFetch: FetchFunction = async (req: FetchRequestSpec, body?: any) => {
     try {
         const {
             method,
