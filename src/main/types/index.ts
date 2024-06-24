@@ -1,4 +1,4 @@
-export type FetchFunction = (req: FetchRequestSpec, body: any, metadata?: Record<string, any>) => Promise<FetchResponseSpec>;
+export type FetchFunction = (req: FetchRequestSpec, body: any) => Promise<FetchResponseSpec>;
 
 export enum FetchMethod {
     GET = 'GET',
