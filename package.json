@@ -1,6 +1,6 @@
 {
     "name": "@nodescript/unified-fetch",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "The module powering Http Request node and its corresponding backend",
     "type": "module",
     "sideEffects": false,
